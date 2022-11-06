@@ -14,6 +14,7 @@ async def load():
 
 async def main():
     await load()
+    #Token not included for security purposes. To use this code for your own bot, you can insert your own bot token in the below sector
     await bot.start("")
 
 asyncio.run(main())
